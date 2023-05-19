@@ -27,7 +27,9 @@ spring:
       ddl-auto:  update
 
   datasource:
-    url: jdbc:h2:mem:devDB
+    url: jdbc:postgresql://localhost:5432/se452group10db
+    username: postgres
+    password: password
   sql:
     init:
       platform: h2

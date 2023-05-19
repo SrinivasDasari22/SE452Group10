@@ -21,8 +21,8 @@ services:
     app:
       depends_on: 
         - postgresql
-      container_name: group10-app
-      image: wyjared/se452-group10
+      container_name: demo-app
+      image: hdasari2242/se452-group10
       env_file: ./.env
       ports:
           - "$SPRING_LOCAL_PORT:$SPRING_DOCKER_PORT"
